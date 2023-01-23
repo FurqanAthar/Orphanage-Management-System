@@ -1,0 +1,111 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: helvetica, arial, san-serif;
+	background: url(images/adminbg.jpg) no-repeat fixed center;
+	background-size: cover;
+	color: white;
+	
+	
+	
+}
+
+.icon{
+	width:100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top:-30px;
+	left: calc(50% - 50px);
+
+
+}
+
+.loginarea{
+	width: 600px;
+	height: 700px;
+	background: black;
+	padding: 20px;
+	border-radius: 5%;
+	opacity: 0.8;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	box-shadow: 10px 12px  20px black;
+	}
+
+.logintext{
+	margin: 0;
+	padding: 55px 0 0px;	
+	text-align: center;
+	font-size: 30px;
+	color: #38962c;
+}
+
+p
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.typeradio{
+	font-size: 14px;
+	padding: 10px 0;
+}
+
+.userdata input{
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+
+.userdata input[type = "text"], input[type = "password"],input[type = "email"]{
+	border: none;
+	border-bottom: 1px solid white;
+	background: transparent;
+	height: 20px;
+	outline: none;
+	color: white;
+}
+
+.loginarea input[type="submit"]
+{
+	width: 100%;
+	border: none;
+	outline: none;
+	background:  #38962c;
+	height: 35px;
+	color: white;
+	font-size: 15px;
+	
+
+}
+
+
+.loginarea input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: white;
+	color: #38962c;
+ }
+
+.loginarea a
+{
+	text-decoration: none;
+	line-height = 20px;
+	position: relative;
+	left: 8%;
+	color: #38962c;
+}
+
+.registerlink{
+	transform: translate(32%,15px);
+}
+
+.loginarea a:hover
+{
+	cursor: pointer;
+	color: #fff;
+}

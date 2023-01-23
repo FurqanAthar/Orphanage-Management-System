@@ -1,0 +1,135 @@
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+.fimanager:before {
+    display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.flaticon-001-magnifying-glass:before { content: "\f100"; }
+.flaticon-002-paper-plane:before { content: "\f101"; }
+.flaticon-003-eyeglasses:before { content: "\f102"; }
+.flaticon-004-lock:before { content: "\f103"; }
+.flaticon-005-loud-speaker:before { content: "\f104"; }
+.flaticon-006-credit-card:before { content: "\f105"; }
+.flaticon-007-gear:before { content: "\f106"; }
+.flaticon-008-programming:before { content: "\f107"; }
+.flaticon-009-shopping-basket:before { content: "\f108"; }
+.flaticon-010-shopping-bag:before { content: "\f109"; }
+.flaticon-011-cursor:before { content: "\f10a"; }
+.flaticon-012-map:before { content: "\f10b"; }
+.flaticon-013-no-sound:before { content: "\f10c"; }
+.flaticon-014-sound:before { content: "\f10d"; }
+.flaticon-015-dj-mixer:before { content: "\f10e"; }
+.flaticon-016-application:before { content: "\f10f"; }
+.flaticon-017-like:before { content: "\f110"; }
+.flaticon-018-arrows:before { content: "\f111"; }
+.flaticon-019-mail:before { content: "\f112"; }
+.flaticon-020-calculator:before { content: "\f113"; }
+.flaticon-021-chatting:before { content: "\f114"; }
+.flaticon-022-bin:before { content: "\f115"; }
+.flaticon-023-smartphone:before { content: "\f116"; }
+.flaticon-024-folder:before { content: "\f117"; }
+.flaticon-025-statistics:before { content: "\f118"; }
+.flaticon-026-text:before { content: "\f119"; }
+.flaticon-027-healthcare:before { content: "\f11a"; }
+.flaticon-028-accept:before { content: "\f11b"; }
+.flaticon-029-restriction:before { content: "\f11c"; }
+.flaticon-030-people:before { content: "\f11d"; }
+.flaticon-031-camera:before { content: "\f11e"; }
+.flaticon-032-weather:before { content: "\f11f"; }
+.flaticon-033-eye:before { content: "\f120"; }
+.flaticon-034-landscape:before { content: "\f121"; }
+.flaticon-035-tag:before { content: "\f122"; }
+.flaticon-036-calendar:before { content: "\f123"; }
+.flaticon-037-clock:before { content: "\f124"; }
+.flaticon-038-battery:before { content: "\f125"; }
+.flaticon-039-cross:before { content: "\f126"; }
+.flaticon-040-checkmark:before { content: "\f127"; }
+.flaticon-041-diagram:before { content: "\f128"; }
+.flaticon-042-scale:before { content: "\f129"; }
+.flaticon-043-sand-clock:before { content: "\f12a"; }
+.flaticon-044-location:before { content: "\f12b"; }
+.flaticon-045-monitor:before { content: "\f12c"; }
+.flaticon-046-document:before { content: "\f12d"; }
+.flaticon-047-application:before { content: "\f12e"; }
+.flaticon-048-question:before { content: "\f12f"; }
+.flaticon-049-exclamation:before { content: "\f130"; }
+.flaticon-050-pin:before { content: "\f131"; }
+
+$font-Flaticon-001-magnifying-glass: "\f100";
+$font-Flaticon-002-paper-plane: "\f101";
+$font-Flaticon-003-eyeglasses: "\f102";
+$font-Flaticon-004-lock: "\f103";
+$font-Flaticon-005-loud-speaker: "\f104";
+$font-Flaticon-006-credit-card: "\f105";
+$font-Flaticon-007-gear: "\f106";
+$font-Flaticon-008-programming: "\f107";
+$font-Flaticon-009-shopping-basket: "\f108";
+$font-Flaticon-010-shopping-bag: "\f109";
+$font-Flaticon-011-cursor: "\f10a";
+$font-Flaticon-012-map: "\f10b";
+$font-Flaticon-013-no-sound: "\f10c";
+$font-Flaticon-014-sound: "\f10d";
+$font-Flaticon-015-dj-mixer: "\f10e";
+$font-Flaticon-016-application: "\f10f";
+$font-Flaticon-017-like: "\f110";
+$font-Flaticon-018-arrows: "\f111";
+$font-Flaticon-019-mail: "\f112";
+$font-Flaticon-020-calculator: "\f113";
+$font-Flaticon-021-chatting: "\f114";
+$font-Flaticon-022-bin: "\f115";
+$font-Flaticon-023-smartphone: "\f116";
+$font-Flaticon-024-folder: "\f117";
+$font-Flaticon-025-statistics: "\f118";
+$font-Flaticon-026-text: "\f119";
+$font-Flaticon-027-healthcare: "\f11a";
+$font-Flaticon-028-accept: "\f11b";
+$font-Flaticon-029-restriction: "\f11c";
+$font-Flaticon-030-people: "\f11d";
+$font-Flaticon-031-camera: "\f11e";
+$font-Flaticon-032-weather: "\f11f";
+$font-Flaticon-033-eye: "\f120";
+$font-Flaticon-034-landscape: "\f121";
+$font-Flaticon-035-tag: "\f122";
+$font-Flaticon-036-calendar: "\f123";
+$font-Flaticon-037-clock: "\f124";
+$font-Flaticon-038-battery: "\f125";
+$font-Flaticon-039-cross: "\f126";
+$font-Flaticon-040-checkmark: "\f127";
+$font-Flaticon-041-diagram: "\f128";
+$font-Flaticon-042-scale: "\f129";
+$font-Flaticon-043-sand-clock: "\f12a";
+$font-Flaticon-044-location: "\f12b";
+$font-Flaticon-045-monitor: "\f12c";
+$font-Flaticon-046-document: "\f12d";
+$font-Flaticon-047-application: "\f12e";
+$font-Flaticon-048-question: "\f12f";
+$font-Flaticon-049-exclamation: "\f130";
+$font-Flaticon-050-pin: "\f131";

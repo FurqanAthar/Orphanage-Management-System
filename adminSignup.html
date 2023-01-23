@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login - OMS</title>
+	<link rel = "stylesheet" type="text/css" href ="styling/adminSignup-style.css">
+</head>
+<body>
+	
+
+	<!--Form-->
+	<div class = "loginarea">
+		<img src="styling/images/avicon.jpg" class="icon">
+		<h1 class="logintext">Admin Signup</h1>
+
+		<form action = "register.php" method="POST">
+
+			<div class="userdata">
+				<label><strong>First Name</strong></label>
+				<input type="text" name="firstName" placeholder="John">
+
+				<label><strong>Last Name</strong></label>
+				<input type="text" name="lastName" placeholder="Doe">
+
+				<label><strong>Email</strong></label>
+				<input type="email" name="email" placeholder="johndoe@email.com">
+
+				<label><strong>Password</strong></label>
+				<input type="password" name="Password" placeholder="*****"> 
+
+				<label><strong>CNIC</strong></label>
+				<input type="text" name="CNIC" placeholder="XXXXX-XXXXXX-X">
+
+				<label><strong>Contact</strong></label>
+				<input type="text" name="Contact" placeholder="+92 3XX XXXXXXX">
+
+				<label><strong>Designation</strong></label>
+				<input type="text" name="Designation" placeholder="Assistant Manager">
+
+				<label><strong>Employment Validation Code</strong></label>
+				<input type="password" name="EVC" placeholder="****">
+
+
+			</div>
+				<input type="submit" name="" value="Signup">
+			<div class="registerlink">
+				<p ID="already">Already have an account?</p>
+				<a href="index.html">Login Here</a>
+			</div>
+		</form>
+	</div>
+	
+
+	<div style = "margin-top: 500px"></div> 
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login - OMS</title>
+    <link rel="stylesheet" type="text/css" href="styling/style.css" />
+  </head>
+  <body>
+    <!--Form-->
+    <div class="loginarea">
+      <img src="styling/images/avicon.jpg" class="icon" />
+      <h1 class="logintext">Login</h1>
+
+      <form action="verify.php" method="GET">
+        <div class="userdata">
+          <label><strong>ID</strong></label>
+          <input type="text" name="ID" placeholder="Please Enter User ID" />
+
+          <label><strong>Password</strong></label>
+          <input
+            type="password"
+            name="Password"
+            placeholder="Please Enter Password"
+          />
+        </div>
+        <input type="submit" name="" value="Login" />
+        <div class="registerlink">
+          <a href="registration.html">Register Here</a>
+        </div>
+      </form>
+    </div>
+
+    <div style="margin-top: 500px"></div>
+  </body>
+</html>
