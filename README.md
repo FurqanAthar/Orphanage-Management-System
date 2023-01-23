@@ -1,6 +1,6 @@
 # Orphanage-Management-System
 
-This Orphanage Management System is a database-focused web application developed using PHP and MySQL. The system is designed to manage and track data related to orphanages, sponsors, and their contributions.
+This Orphanage Management System is a database-focused web application developed using PHP and MySQL. It was developed as part of my databases course project and the system is designed to manage and track data related to orphanages, sponsors, and their contributions.
 
 ## Key Features
 
